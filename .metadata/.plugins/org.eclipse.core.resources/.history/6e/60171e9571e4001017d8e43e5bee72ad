@@ -1,0 +1,23 @@
+package thirdtesting;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+import testing.first.Add;
+
+class Bank {
+
+	@Test
+		 public void test() {
+		 BankAccount account = new BankAccount();
+	        int actual = account.withdraw(2000);
+	        int expectedResult = 3000;
+
+	        assertEquals(expectedResult, actual);
+		    }
+		
+	}
+
+

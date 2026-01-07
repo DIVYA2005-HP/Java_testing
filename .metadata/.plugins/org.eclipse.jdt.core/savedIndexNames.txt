@@ -1,0 +1,21 @@
+INDEX VERSION 1.134+D:\Java-Testing\Testing ideas\.metadata\.plugins\org.eclipse.jdt.core
+3851667897.index
+2942724559.index
+2347335873.index
+1185033355.index
+2267599718.index
+1357749066.index
+862962859.index
+836230683.index
+1405434926.index
+3716777220.index
+3468117826.index
+1865797976.index
+2206657070.index
+76500854.index
+2648083524.index
+4268116805.index
+4260410044.index
+4017210721.index
+2950899372.index
+2151468618.index

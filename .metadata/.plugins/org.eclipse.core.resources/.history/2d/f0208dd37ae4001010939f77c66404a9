@@ -1,0 +1,26 @@
+package thirdtesting;
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
+
+public class BankAccountTest {
+	@BeforeAll
+	static void init() {
+		System.out.println("In before all");
+	}
+	@BeforeEach
+	void beforeeach() {
+		System.out.println("Before each test");
+	}
+
+    @Test
+    public void test() {
+        BankAccount account = new BankAccount();
+        int actual = account.withdraw(2000);
+        int expectedResult = 3000;
+
+        assertEquals(expectedResult, actual);
+    }
+}

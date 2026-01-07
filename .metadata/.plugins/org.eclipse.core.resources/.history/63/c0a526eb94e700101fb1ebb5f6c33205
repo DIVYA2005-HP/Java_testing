@@ -1,0 +1,5 @@
+package Paymentgateway;
+
+public interface PaymentGateway {
+
+}
